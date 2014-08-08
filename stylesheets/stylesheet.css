@@ -1,0 +1,53 @@
+body {
+	background-color: skyblue;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	height: 45px;
+	background-color: white;
+}
+
+nav {
+	max-width: 1190px;
+	width: 95%;
+	margin: 10px auto 0 auto;
+}
+
+nav.right {
+	margin-top: -30px;
+	text-align: right;
+}
+
+nav a.button {
+	margin-right: 20px;
+	font-family: Helvetica;
+	font-size: 15px;
+	text-decoration: none;
+	color: gray;
+}
+
+#nav_bar_pic {
+	width: 25px;
+}
+
+input.main_search {
+	background-color: gray;
+	border-radius: 20px;
+	margin-right: 10px;
+	height: 30px;
+	width: 180px;
+}
+
+#logo {
+	margin-left: 10%;
+	margin-right: 17%;
+	width: 28px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
