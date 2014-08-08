@@ -1,5 +1,5 @@
 body {
-	background-color: skyblue;
+	background-color: lightblue;
 }
 
 header {
@@ -9,6 +9,7 @@ header {
 	background-size: 40px;
 	height: 50px;
 	background-color: white;
+	border-bottom: 1px solid skyblue;
 	margin-bottom: 20px;
 }
 
@@ -54,7 +55,7 @@ nav a.button:hover {
 
 input.main_search {
 	background-color: #a3acb2;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: Helvetica;
 	color: white;
 	border-radius: 20px;
@@ -69,19 +70,20 @@ section.content {
 	max-width: 1190px;
 	margin: 0 auto;
 	border-radius: 10px;
+	color: #66757f;
+	font-family: Helvetica;
 }
 
 section.left {
 	float: left;
 	border-radius: inherit;
 	width: 350px;
-	background-color: white;
 }
 
 section.center {
 	border-radius: inherit;
 	margin: 0 auto;
-	width: 350px;
+	width: 450px;
 	background-color: white;
 }
 
@@ -90,6 +92,58 @@ section.right {
 	float: right;
 	width: 350px;
 	background-color: white;
+}
+
+article.profile {
+	background-color: skyblue;
+	width: 350px;
+	height: 330px;
+	border-radius: inherit;
+}
+
+section.top {
+	background: url('../images/code.png');
+	background-repeat: no-repeat;
+	height: 200px;
+	border-radius: inherit;
+}
+
+section.middle {
+	display: flex;
+	margin-top: -10px;
+	background-color: white;
+}
+
+ul.tweets {
+	padding: 10px;
+}
+
+#profile_pic {
+	margin: -60 20 0 20;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px;
+}
+
+#name {
+	padding-top: 10px;
+}
+
+h1 {
+	color: black;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+#profile_input {
+	width: 300px;
+	margin: 10 auto 10 auto;
+	margin-left: 18px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	outline: 0;
 }
 
 .clearfix:after {
