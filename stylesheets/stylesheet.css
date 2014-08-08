@@ -4,20 +4,30 @@ body {
 
 header {
 	width: 100%;
-	position: fixed;
-	height: 45px;
+	background: url('../images/logo.png') center center;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	height: 50px;
 	background-color: white;
+	margin-bottom: 20px;
 }
 
-nav {
+div.main {
+	padding-top: 5px;
 	max-width: 1190px;
-	width: 95%;
-	margin: 10px auto 0 auto;
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav.left {
+	padding-top: 5px;
+	width: 400px;
+	float: left;
 }
 
 nav.right {
-	margin-top: -30px;
-	text-align: right;
+	width: 400px;
+	float: right;
 }
 
 nav a.button {
@@ -25,25 +35,61 @@ nav a.button {
 	font-family: Helvetica;
 	font-size: 15px;
 	text-decoration: none;
-	color: gray;
+	color: #66757f;
+	opacity: 0.9;
+}
+
+nav a.button:hover {
+	opacity: 1;
+	text-decoration: underline;
 }
 
 #nav_bar_pic {
 	width: 25px;
 }
 
-input.main_search {
-	background-color: gray;
-	border-radius: 20px;
-	margin-right: 10px;
-	height: 30px;
-	width: 180px;
+#new_post_pic {
+	width: 35px;
 }
 
-#logo {
-	margin-left: 10%;
-	margin-right: 17%;
-	width: 28px;
+input.main_search {
+	background-color: #a3acb2;
+	font-size: 12px;
+	font-family: Helvetica;
+	color: white;
+	border-radius: 20px;
+	margin-right: 10px;
+	height: 35px;
+	width: 170px;
+	outline: 0;
+}
+
+section.content {
+	display: flex;
+	max-width: 1190px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+section.left {
+	float: left;
+	border-radius: inherit;
+	width: 350px;
+	background-color: white;
+}
+
+section.center {
+	border-radius: inherit;
+	margin: 0 auto;
+	width: 350px;
+	background-color: white;
+}
+
+section.right {
+	border-radius: inherit;
+	float: right;
+	width: 350px;
+	background-color: white;
 }
 
 .clearfix:after {
