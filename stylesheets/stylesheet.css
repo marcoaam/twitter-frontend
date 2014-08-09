@@ -11,6 +11,11 @@ header {
 	background-color: white;
 	border-bottom: 1px solid skyblue;
 	margin-bottom: 20px;
+	position: fixed;
+}
+
+div.background_box {
+	height: 70px;
 }
 
 div.main {
@@ -114,7 +119,7 @@ section.middle {
 	background-color: white;
 }
 
-ul.tweets {
+div.tweets {
 	padding: 10px;
 }
 

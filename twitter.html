@@ -2,7 +2,10 @@
 <html>
 <head>
 	<link rel="stylesheet" href="stylesheets/reset.css">
-	<link rel="stylesheet" href="stylesheets/stylesheet.css">
+	<link rel="stylesheet" href="stylesheets/stylesheet.css">	
+	<script type="text/javascript" src="javascript/jquery.js"></script>
+	<script type="text/javascript" src="javascript/jscroll.js"></script>
+	<script type="text/javascript" src="javascript/twitter.js"></script>
 </head>
 <body>
 	<header>
@@ -21,6 +24,8 @@
 			</nav>
 		</div>
 	</header>
+		<div class="background_box">
+	</div>
 	<section class="content">
 		<section class="left">
 			<article class="profile">
@@ -37,21 +42,19 @@
 			</article>
 		</section>
 		<section class="center">
-			<ul class="tweets">
+			<div class="tweets">
 				<h1>Tweets</h1>
-				<hr>
-				<li>
-					Hi all.
-				<li>
-					<hr>
-				<li>
-					Hi all 2 tweets.
-				<li>
-					<hr>
-				<li>
-					Hi all 3 tweets.
-				<li>
-			</ul>
+					<h3>Page 1</h3>
+			    <p>This is the content of page 1 in the jScroll example. Scroll to the bottom of this box to load the next set of content.
+
+This is example text for the jScroll demonstration. jScroll is a jQuery plugin for infinite scrolling, endless scrolling, lazy loading, auto-paging, or whatever you may call it.
+
+With jScroll, you can initialize the scroller on an element with a fixed height and overflow setting of "auto" or "scroll," or it can be set on a standard block-level element within the document and the scrolling will be initialized based on the brower window's scroll position.
+
+jScroll is open-source and can be downloaded from my GitHub repository at github.com/pklauzinski/jscroll.
+
+</p><a href="page2.html">next page</a>
+			</div>
 		</section>
 		<section class="right">
 		</section>
